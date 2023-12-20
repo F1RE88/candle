@@ -56,19 +56,3 @@ li{
     animation-name: color;
     animation-duration: 5s;
 }
-@keyframes color{
-    from{
-        color: white;
-    }
-    to{
-        color: black;
-    }
-}
-@keyframes text{
-    form{
-        color: rgb(151, 2, 2);
-    }
-    to{
-        color: black;
-    }
-}
