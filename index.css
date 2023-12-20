@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    text-align: center;
 }
 .y2{
     display: inline-flex;
@@ -34,9 +35,6 @@ padding: 0px;
 }
 .text{
     color: rgb(151, 2, 2);
-    animation-name: text;
-    animation-name: color;
-    animation-duration: 5s;
 }
 .center{
     text-align: center;
@@ -49,26 +47,8 @@ padding: 0px;
     cursor: pointer;
     width: 150px;
     height: px;
-    font-size: 19px;
+   font-size: 19px;
 }
 li{
     cursor: pointer;
-    animation-name: color;
-    animation-duration: 5s;
-}
-@keyframes color{
-    from{
-        color: white;
-    }
-    to{
-        color: black;
-    }
-}
-@keyframes text{
-    form{
-        color: rgb(151, 2, 2);
-    }
-    to{
-        color: black;
-    }
-}
+ }
